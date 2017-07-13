@@ -52,6 +52,6 @@ public class Fragment2 extends Fragment {
     private void createList(){
         smsRecords = dbHelper.getAllToDos();
         dbHelper.closeDB();
-        Log.e("error_dbinflate", String.valueOf(smsRecords.get(0).getmNumber()));
+//        Log.e("error_dbinflate", String.valueOf(smsRecords.get(0).getmNumber()));
     }
 }
